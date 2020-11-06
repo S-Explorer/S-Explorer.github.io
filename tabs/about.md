@@ -9,3 +9,4 @@ title: 关于
 ---
 
 > 没有什么好说的，日后慢慢丰富内容。
+![](\assets\img\sample\rain.jpg)
