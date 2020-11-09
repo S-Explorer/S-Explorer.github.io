@@ -1,5 +1,5 @@
 ---
-title: 简单的搭建一个个人博客网站
+title: Try to write a personal blog for the first time
 author: Aoizner-Ex
 date: 2020-11-06 09:33:00 +0800
 categories: [Life, Interesting events]
