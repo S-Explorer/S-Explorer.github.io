@@ -1,4 +1,4 @@
-# mysel blog
+# myself blog
 
 
 **welcome every one to my blog**
