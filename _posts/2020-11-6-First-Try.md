@@ -1,11 +1,11 @@
 ---
-title: Try to write a personal blog for the first time
+title: 第一次尝试写博客
 author: Aoizner-Ex
 date: 2020-11-06 09:33:00 +0800
 categories: [Life, Interesting events]
 tags: [FirstTry]
 math: true
-image: /assets/img/sample/title_HFUT.png
+image: ./assets/img/sample/title_HFUT.png
 ---
 
 这是我在Github上首次尝试写我的第一篇博客，分享一下一些感受。

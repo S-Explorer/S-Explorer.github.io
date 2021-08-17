@@ -1,5 +1,5 @@
 ---
-title: Weekend mountain climbing
+title: 周末的赏花记
 author: Aoizner-Ex
 date: 2021-3-27 17:30:00 +0800
 categories: [Life, climb]
@@ -20,17 +20,17 @@ image: /assets/img/post_img/20210327/shushan_2.jpg
 
 等了许久，终于看到了一直想见的樱花树，虽然我不认识，也没有记住😁
 
-![Cherry Blossom 1](/assets/img/20210327/Cherry Blossom_3.jpg)
+![Cherry Blossom 1](/assets/img/post_img/20210327/Cherry Blossom_3.jpg)
 
 说实话确实挺好看的，肯定比我拍的要惊艳许多。😄
 
-![Cherry Blossom 2](/assets/img/20210327/Cherry Blossom_5.jpg)
+![Cherry Blossom 2](/assets/img/post_img/20210327/Cherry Blossom_5.jpg)
 
-![Cherry Blossom 3](/assets/img/20210327/Cherry Blossom_1.jpg)
+![Cherry Blossom 3](/assets/img/post_img/20210327/Cherry Blossom_1.jpg)
 
-![Cherry Blossom 4](/assets/img/20210327/Cherry Blossom_2.jpg)
+![Cherry Blossom 4](/assets/img/post_img/20210327/Cherry Blossom_2.jpg)
 
-![Cherry Blossom 5](/assets/img/20210327/Cherry Blossom_4.jpg)
+![Cherry Blossom 5](/assets/img/post_img/20210327/Cherry Blossom_4.jpg)
 
 顺着体育公园这边的湖畔溜达溜达，很是惬意，以后还要来逛一逛，就是不知道夏天蚊虫多不多。
 

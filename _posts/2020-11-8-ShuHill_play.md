@@ -1,5 +1,5 @@
 ---
-title: Weekend mountain climbing
+title: 周末的蜀山行记录
 author: Aoizner-Ex
 date: 2020-11-09 10:41:00 +0800
 categories: [Life, climb]

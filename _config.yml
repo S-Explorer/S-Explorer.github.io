@@ -1,99 +1,106 @@
-# The Site Settings
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT licensed
+# The Site Configuration
 
+# Import the theme
+theme: jekyll-theme-chirpy
+
+# Only if your site type is GitHub Project sites and doesn't have a custom domain,
+# change below value to '/projectname'.
+baseurl: ''
+
+# The language of the site layout › http://www.lingoes.net/en/translator/langcode.htm
+# Go to folder '_data/locales' to check the available language options
+lang: en
+
+# The lang attribute of HTML › http://www.lingoes.net/en/translator/langcode.htm
+# We can specify a language different from the layout of the content.
+# If it is not assigned, the site will use the value of 'lang' instead.
+content_lang: ''
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-#--------------------------
+# ↓ --------------------------
 
-title: Aoizner_Ex                         # the main title
+title: XerosLab                          # the main title
 
-tagline: 一个爱好者，爱好所有事的爱好者  # it will display as the sub-title
+tagline: Short code, that works   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Programming, Hacking 관련 주제를 다루는 기술 블로그입니다.
 
-# Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://S-Explorer.github.io'
-
-author: S-Explorer                 # change to your full name
-
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: 'https://xeroslab.github.io'
 
 github:
-  username: S-Explorer             # change to your github username
+  username: XerosLab             # change to your github username
 
 twitter:
-  username: JackLuoluo             # change to your twitter username
+  username: XerosLab            # change to your twitter username
 
 social:
-  name: Aoizner_Ex                   # it will shows as the copyright owner in Footer
-  email: 1246206018@qq.com             # change to your email address
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: Xeros
+  email: xeros.log@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/JackLuoluo      # change to your twitter homepage
-    - https://github.com/S-Explorer       # change to your github homepage
+    - https://twitter.com/XerosLab      # change to your twitter homepage
+    - https://github.com/XerosLab       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
-#--------------------------
+# ↑ --------------------------
 
-
-# Only if your site type is GitHub Project sites and doesn't have a custom domain,
-# change below value to '/projectname'.
-baseurl: ''
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'G-RNMZWFDFMX'              # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
   pv:
-    # The Google Analytics pageviews switch.
-    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-    enabled: false
-    # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
-disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-
-# Prefer color scheme setting, available values:
+# Prefer color scheme setting.
 #
-#     dual   - Follow the system prefer color by default, and a toggle will display
-#              in the left bottom of Sidebar, which used for switch the theme between dark and light.
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
 #
 #     light  - Use the light color scheme
-#
 #     dark   - Use the dark color scheme
 #
-theme_mode: light
+theme_mode: dark # [light|dark]
 
-# boolean type, global switch for ToC in posts.
+# The CDN endpoint for images.
+# Notice that once it is assigned, the CDN url
+# will be added to all image (site avatar & posts' images) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+img_cdn: ''
+
+# the avatar on sidebar, support local or CORS resources
+avatar: https://avatars.githubusercontent.com/u/77450463
+
+# boolean type, the global switch for ToC in posts.
 toc: true
+
+disqus:
+  comments: true  # boolean type, the global switch for posts comments.
+  shortname: 'XerosLab'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 paginate: 10
 
-markdown: kramdown
-
-highlighter: rouge
+# ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
-  input: GFM
   syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: 'highlight'
+  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
     # default_lang: console
     span:
       line_numbers: false
@@ -101,24 +108,24 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-# DO NOT change this unless you're a Pro user on Jekyll and Web development,
-# or you think you're smart enough to change other relevant URLs within this template.
-permalink: /posts/:title/
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
 
 defaults:
   -
     scope:
-      path: ""          # An empty string here means all files in the project
+      path: ''          # An empty string here means all files in the project
       type: posts
     values:
       layout: post
       comments: true    # Enable comments in posts.
       toc: true         # Display TOC column in posts.
-      location: Post
-      breadcrumb:
-        -
-          label: Posts
-          url: /
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /posts/:title/
   -
     scope:
       path: _drafts
@@ -126,44 +133,14 @@ defaults:
       comments: false
   -
     scope:
-      path: tags
-    values:
-      tab_active: Tags
-      location: Tag
-      breadcrumb:
-        -
-          label: Home
-          url: /
-        -
-          label: Tags
-          url: /tabs/tags/
-  -
-    scope:
-      path: categories
-    values:
-      tab_active: Categories
-      location: Category
-      breadcrumb:
-        -
-          label: Home
-          url: /
-        -
-          label: Categories
-          url: /tabs/categories/
-  -
-    scope:
-      path: tabs
+      path: ''
+      type: tabs             # see `site.collections`
     values:
       layout: page
+      permalink: /:title/
       dynamic_title: true    # Hide title in mobile screens.
-      breadcrumb:
-        -
-          label: Home
-          url: /
-
 
 sass:
-  sass_dir: /assets/css
   style: compressed
 
 compress_html:
@@ -173,28 +150,29 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: []
+    envs: [development]
 
 exclude:
-  - vendor        # Avoid Jekyll mistakenly read the vendor directory on Travis-CI's VM .
-  - Gemfile.lock
-  - Gemfile
+  - '*.gem'
+  - '*.gemspec'
   - tools
   - docs
   - README.md
   - LICENSE
+  - gulpfile.js
+  - node_modules
+  - '*.json'
 
-sitemap_exclude:  # Sitemap will exclude the following items.
-  fuzzy:
-    - /assets/
-  accurate:
-    - /norobots/
-    - /tabs/
-    - /categories/
-    - /tags/
-    - /posts/
-    - 404.html
-    - feed.xml
-    - sitemap.xml
-    - robots.txt
-    - redirects.json
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+# Outdated configuration warning
+outdated: '-- Missing configuration options! --'
+
+future: ture

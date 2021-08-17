@@ -1,9 +1,9 @@
-# myself blog
+# Aoinzer_Ex Blog
 
+Theme - https://github.com/cotes2020/jekyll-theme-chirpy  
 
-**welcome every one to my blog**
+## 博客内容主题
 
- |  有时候我会分享一些有趣的东西在这里，希望看到的人能给我纠正错误，一起进步|
- |
+简单的上传一些日常生活与学习的事情，在这里记录学习过程。
 
-![](assets\img\sample\rain.jpg)
+![view](/assets/img/sample/rain1.jpg)
