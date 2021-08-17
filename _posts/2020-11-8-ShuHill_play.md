@@ -2,13 +2,13 @@
 title: 周末的蜀山行记录
 author: Aoizner-Ex
 date: 2020-11-09 10:41:00 +0800
-categories: [Life, climb]
+categories: [Life]
 tags: [Funny]
-math: true
-image: /assets/img/post_img/ShuHill/online-image.jpg
 ---
 
-趁着美好的天气，来到了大蜀山来看看风景
+趁着美好的天气，来到了大蜀山来看看风景。
+
+![大蜀山](/assets/img/post_img/ShuHill/online-image.jpg)
 
 ---
 

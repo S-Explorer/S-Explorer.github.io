@@ -2,13 +2,13 @@
 title: 周末的赏花记
 author: Aoizner-Ex
 date: 2021-3-27 17:30:00 +0800
-categories: [Life, climb]
-tags: [Funny]
-math: true
-image: /assets/img/post_img/20210327/shushan_2.jpg
+categories: [Life]
+tags: [FlowerShow]
 ---
 
 天气渐渐回暖，也是趁着好天气出去游玩。
+
+![蜀山景](/assets/img/post_img/20210327/shushan_2.jpg)
 
 ---
 
