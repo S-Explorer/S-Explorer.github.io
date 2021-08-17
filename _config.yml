@@ -9,7 +9,7 @@ baseurl: ''
 
 # The language of the site layout › http://www.lingoes.net/en/translator/langcode.htm
 # Go to folder '_data/locales' to check the available language options
-lang: en
+lang: zh-CN
 
 # The lang attribute of HTML › http://www.lingoes.net/en/translator/langcode.htm
 # We can specify a language different from the layout of the content.
@@ -17,36 +17,36 @@ lang: en
 content_lang: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Seoul
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: XerosLab                          # the main title
+title: Aoinzer_Ex                          # the main title
 
 tagline: Short code, that works   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Programming, Hacking 관련 주제를 다루는 기술 블로그입니다.
+  简单的、认真的、积极的、努力的。
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://xeroslab.github.io'
+url: 'https://s-explorer.github.io/'
 
 github:
-  username: XerosLab             # change to your github username
+  username: S-Explorer              # change to your github username
 
 twitter:
-  username: XerosLab            # change to your twitter username
+  username: JackLuoluo             # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Xeros
-  email: xeros.log@gmail.com             # change to your email address
+  name: Aoinzer_Ex
+  email: jackluoluo1246@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/XerosLab      # change to your twitter homepage
-    - https://github.com/XerosLab       # change to your github homepage
+    - https://twitter.com/JackLuoluo       # change to your twitter homepage
+    - https://github.com/S-Explorer       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -57,7 +57,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 
 
 google_analytics:
-  id: 'G-RNMZWFDFMX'              # fill in your Google Analytics ID
+  id: ''              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -84,14 +84,14 @@ theme_mode: dark # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/77450463
+avatar: /assets/img/sample/avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
 disqus:
-  comments: true  # boolean type, the global switch for posts comments.
-  shortname: 'XerosLab'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  comments: false  # boolean type, the global switch for posts comments.
+  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 paginate: 10
 
