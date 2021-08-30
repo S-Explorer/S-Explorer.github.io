@@ -40,7 +40,7 @@ $$
 
 其中整个laplacianFOAM的求解器场的设置仅有 $T$ 
 
-```C++
+```c++
 volScalarField T
 (
     IOobject
