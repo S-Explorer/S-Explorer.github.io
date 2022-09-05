@@ -2,8 +2,8 @@
 title: 阅读laplacianFoam后学习成果-基础kernelFoam
 author: Aoizner-Ex
 date: 2021-08-29 16:33:00 +0800
-categories: [study, OpenFOAM]
-tags: [kernelFoam, CFD, OpenFOAM]
+categories: [study, CFD]
+tags: [OpenFOAM]
 math: true
 image:
   src: /assets/img/sample/kernelFoam.png

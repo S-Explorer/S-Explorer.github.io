@@ -3,7 +3,7 @@ title: 传热传质求解器介绍
 author: Aoizner-Ex
 date: 2022-06-05 12:30:00 +0800
 categories: [study, CFD]
-tags: [CFD]
+tags: [OpenFOAM]
 math: true
 ---
 
