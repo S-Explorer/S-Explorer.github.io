@@ -40,10 +40,12 @@ $$
 对两侧 $\nabla T$ 进行展开，可以得到整式：
 
 $$
-k_s\Delta_s(T_s-T_{ps}) = -k_f\Delta_f(T_f-T_{pf})\\
-\Delta = \frac 1\delta\qquad T_{ps} = T_{pf}\\
+\begin{align}
+k_s\Delta_s(T_s-T_{ps}) &= -k_f\Delta_f(T_f-T_{pf})\\
+\Delta = \frac 1\delta \quad&\quad T_{ps} = T_{pf}\\
 \Downarrow\\
-T_p = \frac{k_s\Delta_s}{k_s\Delta_s + k_f\Delta_f}T_s+\frac{k_f\Delta_f}{k_s\Delta_s + k_f\Delta_f}T_f
+T_p = \frac{k_s\Delta_s}{k_s\Delta_s + k_f\Delta_f}T_s & +\frac{k_f\Delta_f}{k_s\Delta_s + k_f\Delta_f}T_f
+\end{align}
 $$
 
 对于`turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C`中的`updateCoeffs()`
